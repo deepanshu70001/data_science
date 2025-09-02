@@ -1,0 +1,6 @@
+1 data set(sourcing,cleaning,encoding,outlier)
+divide the dataset based on dependent and independent features
+2 train test split
+3 standardization of data as one features can have differnt unit,measurement so we standardized them for better accuracy
+4 train the model using linerar regrssion
+5 
