@@ -1,0 +1,57 @@
+1 linear
+2 ridge lasso elastic
+3 support vector regressor
+4 k nearest neighbour
+5 decision tree
+6 random forest
+
+Linear Regression
+- Definition: Models a linear relationship between features and target.
+- Working:
+- Fits line by minimizing mean squared error (MSE).
+- Assumes linearity and homoscedasticity.
+▪️ Ridge Regression
+- Definition: Linear regression with L2 regularization.
+- Working:
+- Penalizes large coefficients.
+- Helps reduce multicollinearity and overfitting.
+▪️ Lasso Regression
+- Definition: Linear regression with L1 regularization.
+- Working:
+- Shrinks some coefficients to zero.
+- Performs feature selection.
+▪️ ElasticNet
+- Definition: Combines L1 and L2 regularization.
+- Working:
+- Balances sparsity and stability.
+- Useful when features are correlated.
+▪️ Decision Tree Regressor
+- Definition: Splits data to minimize variance in target values.
+- Working:
+- Builds tree by choosing splits that reduce MSE.
+- Can overfit without pruning.
+▪️ Random Forest Regressor
+- Definition: Ensemble of regression trees.
+- Working:
+- Averages predictions from multiple trees.
+- Reduces overfitting and improves accuracy.
+▪️ Gradient Boosting Regressor
+- Definition: Sequentially builds trees to minimize prediction error.
+- Working:
+- Each tree fits residuals of previous trees.
+- Optimizes using gradient descent.
+▪️ Support Vector Regressor (SVR)
+- Definition: Extension of SVM for regression.
+- Working:
+- Fits a margin of tolerance around predictions.
+- Uses kernel functions for non-linear regression.
+▪️ KNN Regressor
+- Definition: Predicts target by averaging nearest neighbors.
+- Working:
+- Computes distance to training samples.
+- Averages target values of K closest points.
+▪️ AdaBoost Regressor
+- Definition: Boosts weak regressors to improve accuracy.
+- Working:
+- Focuses on samples with high error.
+- Combines weak learners into a strong model.

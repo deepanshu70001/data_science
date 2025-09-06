@@ -1,0 +1,63 @@
+Supervised Learning: Core Idea
+- Definition: A learning paradigm where models are trained on labeled datasets (input-output pairs).
+- Goal: Learn a mapping from features (X) to target labels (Y) to make predictions on unseen data.
+
+1 logistic
+2 Support vector
+3 KNN
+4 decision tree
+5 random forest
+6 naive baise
+7 ada boost
+
+🔍 Classification Algorithms (Discrete Output)
+▪️1 Logistic Regression
+- Definition: A linear model for binary classification that estimates probabilities.
+- Working:
+- Computes weighted sum of input features.
+- Applies sigmoid function to squash output between 0 and 1.
+- Uses cross-entropy loss for optimization. ridge lasso
+▪️2 K-Nearest Neighbors (KNN)
+- Definition: A non-parametric method that classifies based on proximity to training samples.
+- Working:
+- Calculates distance (e.g., Euclidean) to all training points.
+- Selects top K closest neighbors.
+- Assigns the majority class among neighbors.
+▪️  3 Support Vector Machine (SVM)
+- Definition: A margin-based classifier that finds the optimal separating hyperplane.
+- Working:
+- Maximizes the margin between support vectors.
+- Uses kernel functions (RBF, polynomial) for non-linear separation.
+- Solves a convex optimization problem.
+▪️  4 Decision Tree Classifier
+- Definition: A tree-based model that splits data based on feature thresholds.
+- Working:
+- Uses metrics like Gini impurity or entropy to choose splits.
+- Recursively partitions data until pure leaf nodes are formed.
+- Prone to overfitting without pruning.
+▪️ Random Forest Classifier
+- Definition: An ensemble of decision trees trained on bootstrapped samples.
+- Working:
+- Each tree votes independently.
+- Final prediction is majority vote.
+- Reduces variance and improves generalization.
+▪️ Gradient Boosting Classifier (e.g., XGBoost, LightGBM)
+- Definition: Builds trees sequentially to correct previous errors.
+- Working:
+- Each tree fits the residuals of the previous tree.
+- Uses gradient descent to minimize loss.
+- Highly effective for structured/tabular data.
+▪️ Naive Bayes
+- Definition: A probabilistic classifier based on Bayes’ theorem with feature independence assumption.
+- Working:
+- Calculates prior and likelihood for each class.
+- Multiplies probabilities assuming independence.
+- Chooses class with highest posterior probability.
+
+
+▪️ AdaBoost Classifier
+• 	Definition: Boosts weak learners by focusing on misclassified samples.
+• 	Working:
+• 	Assigns weights to samples.
+• 	Trains weak learners sequentially.
+• 	Combines them into a strong ensemble.
