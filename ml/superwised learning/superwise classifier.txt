@@ -9,6 +9,7 @@ Supervised Learning: Core Idea
 5 random forest
 6 naive baise
 7 ada boost
+8 gradient
 
 🔍 Classification Algorithms (Discrete Output)
 ▪️1 Logistic Regression
