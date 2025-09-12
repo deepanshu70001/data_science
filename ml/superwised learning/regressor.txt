@@ -4,6 +4,9 @@
 4 k nearest neighbour
 5 decision tree
 6 random forest
+7 AdaBoost
+8 gradient
+9 xg
 
 Linear Regression
 - Definition: Models a linear relationship between features and target.
